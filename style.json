@@ -15,7 +15,7 @@
     "IRI-source": {
       "type": "vector",
       "tiles": [
-        "pmtiles://https://nnkhij.github.io/NepalMMS/data/IRI.pmtiles/{z}/{x}/{y}"
+        "pmtiles://https://nnkhij.github.io/DOR/data/IRI.pmtiles/{z}/{x}/{y}"
       ],
       "minzoom": 8,
       "maxzoom": 20
@@ -96,3 +96,4 @@
   ]
 
 }
+
