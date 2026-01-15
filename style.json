@@ -10,12 +10,12 @@
       "minzoom": 1,
       "maxzoom": 22,
       "tileSize": 256,
-      "attribution": "è¢Ì<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors"
+      "attribution": "¬è¬¢√≠<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors"
     },
     "IRI-source": {
       "type": "vector",
       "tiles": [
-        "pmtiles://http://127.0.0.1:8080/data/IRI.pmtiles/{z}/{x}/{y}"
+        "pmtiles://https://nnkhij.github.io/NepalMMS/data/IRI.pmtiles/{z}/{x}/{y}"
       ],
       "minzoom": 8,
       "maxzoom": 20
@@ -94,4 +94,5 @@
       }
     }
   ]
+
 }
