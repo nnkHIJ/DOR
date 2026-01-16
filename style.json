@@ -10,7 +10,10 @@
       "minzoom": 1,
       "maxzoom": 22,
       "tileSize": 256,
-      "attribution": "Ⓒ
+      "attribution": "Ⓒ<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors"
+    },
+    "IRI-source": {
+      "type": "vector",
       "tiles": [
         "pmtiles://https://nnkhij.github.io/DOR/data/IRI.pmtiles/{z}/{x}/{y}"
       ],
@@ -180,5 +183,6 @@
   ]
 
 }
+
 
 
