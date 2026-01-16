@@ -124,8 +124,12 @@
             </button>
             <div id="layers-container" class="disp-layers" style="display: none;">
                 <label><input type="checkbox" id="osm-layer-chk" checked> Open Street Map</label>
-                <label><input type="checkbox" id="IRI01-layer-chk" checked> IRI Nagdhunga</label>
-                <label><input type="checkbox" id="IRI02-layer-chk" > IRI Nagdhunga(Validation)</label>
+                <label>- IRI -</label>
+                <label><input type="checkbox" id="IRI01-layer-chk" checked>Nagdhunga</label>
+                <label><input type="checkbox" id="IRI02-layer-chk" >Nagdhunga(Validation)</label>
+                <label><input type="checkbox" id="IRI05-layer-chk" >RingRoad</label>
+                <label><input type="checkbox" id="IRI04-layer-chk" >NH37</label>
+                <label><input type="checkbox" id="IRI03-layer-chk" >F180</label>
                 <div id="attributes" style="margin-top:6px;"></div>
             </div>
         </div>
@@ -227,7 +231,10 @@
         const layerIds = [
             'osm-layer',
             'IRI01-layer',
-            'IRI02-layer'
+            'IRI02-layer',
+            'IRI03-layer',
+            'IRI04-layer',
+            'IRI05-layer'
         ];
         document.querySelector('#toggle-layers-btn').addEventListener('click', () => {
             const layersContainer = document.getElementById('layers-container');

@@ -92,6 +92,93 @@
           15, 3
         ]
       }
+    },
+    {
+      "id": "IRI03-layer",
+      "type": "line",
+      "source": "IRI-source",
+      "source-layer": "IRI03",
+      "layout": { "visibility": "none" },
+      "paint": {
+        "line-color": [
+          "case",
+          ["in", "Very Good", ["string", ["get", "description"], ""]], "#0000FF",
+          ["in", "Fairly Good", ["string", ["get", "description"], ""]], "#00FFFF",
+          ["in", "Good", ["string", ["get", "description"], ""]], "#1E90FF",
+          ["in", "Standard (Upper)", ["string", ["get", "description"], ""]], "#00FF80",
+          ["in", "Standard (Lower)", ["string", ["get", "description"], ""]], "#00FF00",
+          ["in", "Slightly Rough", ["string", ["get", "description"], ""]], "#ADFF2F",
+          ["in", "Very Rough", ["string", ["get", "description"], ""]], "#FFA500",
+          ["in", "Extremely Rough", ["string", ["get", "description"], ""]], "#FF0000",
+          ["in", "Rough", ["string", ["get", "description"], ""]], "#FFFF00",
+          "#000000"
+        ],
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          10, 1,
+          15, 3
+        ]
+      }
+    },
+    {
+      "id": "IRI04-layer",
+      "type": "line",
+      "source": "IRI-source",
+      "source-layer": "IRI04",
+      "layout": { "visibility": "none" },
+      "paint": {
+        "line-color": [
+          "case",
+          ["in", "Very Good", ["string", ["get", "description"], ""]], "#0000FF",
+          ["in", "Fairly Good", ["string", ["get", "description"], ""]], "#00FFFF",
+          ["in", "Good", ["string", ["get", "description"], ""]], "#1E90FF",
+          ["in", "Standard (Upper)", ["string", ["get", "description"], ""]], "#00FF80",
+          ["in", "Standard (Lower)", ["string", ["get", "description"], ""]], "#00FF00",
+          ["in", "Slightly Rough", ["string", ["get", "description"], ""]], "#ADFF2F",
+          ["in", "Very Rough", ["string", ["get", "description"], ""]], "#FFA500",
+          ["in", "Extremely Rough", ["string", ["get", "description"], ""]], "#FF0000",
+          ["in", "Rough", ["string", ["get", "description"], ""]], "#FFFF00",
+          "#000000"
+        ],
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          10, 1,
+          15, 3
+        ]
+      }
+    },
+    {
+      "id": "IRI05-layer",
+      "type": "line",
+      "source": "IRI-source",
+      "source-layer": "IRI05",
+      "layout": { "visibility": "none" },
+      "paint": {
+        "line-color": [
+          "case",
+          ["in", "Very Good", ["string", ["get", "description"], ""]], "#0000FF",
+          ["in", "Fairly Good", ["string", ["get", "description"], ""]], "#00FFFF",
+          ["in", "Good", ["string", ["get", "description"], ""]], "#1E90FF",
+          ["in", "Standard (Upper)", ["string", ["get", "description"], ""]], "#00FF80",
+          ["in", "Standard (Lower)", ["string", ["get", "description"], ""]], "#00FF00",
+          ["in", "Slightly Rough", ["string", ["get", "description"], ""]], "#ADFF2F",
+          ["in", "Very Rough", ["string", ["get", "description"], ""]], "#FFA500",
+          ["in", "Extremely Rough", ["string", ["get", "description"], ""]], "#FF0000",
+          ["in", "Rough", ["string", ["get", "description"], ""]], "#FFFF00",
+          "#000000"
+        ],
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          10, 1,
+          15, 3
+        ]
+      }
     }
   ]
 
